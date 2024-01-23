@@ -1,0 +1,28 @@
+ion-header {
+  ion-toolbar {
+    background: #4a90e2; /* Blue background */
+    color: white; /* White text */
+
+    ion-title {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
+}
+ion-list {
+  ion-item {
+    background: #ffffff; /* White background */
+    border-bottom: 1px solid #ddd; /* Light grey border */
+    margin-bottom: 5px; /* Space between items */
+    padding: 10px; /* Padding for items */
+
+    a {
+      color: white; /* Dark text color for better visibility */
+      text-decoration: none; /* No underline */
+    }
+
+    a:hover {
+      color: #4a90e2; /* Change color on hover */
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Breweries</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-list>
+    <ion-item *ngFor="let brewery of breweries">
+      <a [routerLink]="['/detail', brewery.id]">
+        {{ brewery.name }}
+      </a>
+    </ion-item>
+  </ion-list>
+</ion-content>

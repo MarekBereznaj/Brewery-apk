@@ -1,0 +1,7 @@
+{
+  "name": "OpenBreweryDb",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
